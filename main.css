@@ -1,0 +1,59 @@
+@import 'css/bulma.css';
+
+
+
+body {
+    background-color: #F7EDE2;
+    font-family: 'Noto Sans Linear B', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.opener-full-width {
+    background: url(images/background.jpeg);
+    height: 100%;
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0rem 0rem 5rem 0rem;
+}
+
+main {
+    width: 80vw;
+    margin: auto;
+}
+
+.navbar-brand,
+.navbar-menu {
+    background-color: #84A59D;
+}
+
+.top-container {
+    background-color: #84A59D;
+}
+
+.navbar-item,
+.navbar-link,
+title.is-1 {
+    color: #F7EDE2;
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+    color: black;
+}
+
+.title.is-1.has-text-white {
+    filter: drop-shadow(0 0 0.75rem black);
+    display: block;
+    padding: 10rem 0rem;
+}
+
+.spacer {
+    margin-top: 5rem;
+}
+
+img {
+    object-fit: cover;
+}
